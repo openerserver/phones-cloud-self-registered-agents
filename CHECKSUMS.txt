@@ -1,0 +1,6 @@
+# Phones Cloud preview client SHA-256 checksums
+# Verified against the official versioned downloads on 2026-07-18.
+
+4ac838da9f73b9824ee2dde8ac1f1f6057c57ba2db393af5064ffb58df561ce9  phonescloud-windows-agent-0.1.0-test-win-x64.zip
+9efd58ecbe057a9c3d451ef08d6c33d653b84efd2320247fe364a95324107de8  phonescloud-mac-agent-0.2.7.dmg
+519299166cd53242fc7cc2e0a49c357f54d7cf427d47e27c0ad14bc88b0f3519  phonescloud-android-1.1.1.apk
