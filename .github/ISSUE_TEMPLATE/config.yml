@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全漏洞
+    url: https://github.com/openerserver/phones-cloud-self-registered-agents/blob/main/SECURITY.md
+    about: 请按安全政策私下报告，不要创建公开 Issue。
+  - name: 账号、订单与隐私问题
+    url: https://www.phones-cloud.cn/contact
+    about: 需要提交账号或隐私信息时，请使用官网联系入口。
+  - name: 完整使用文档
+    url: https://www.phones-cloud.cn/self-registered-device
+    about: 查看 Windows、macOS 和 Android 自注册被控端的详细说明。
