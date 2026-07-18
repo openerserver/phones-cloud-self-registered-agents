@@ -1,0 +1,87 @@
+name: Bug 报告
+description: 报告可公开讨论的安装、兼容性或连接问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你帮助改进 Phones Cloud 自注册被控端。
+        安全漏洞请按 SECURITY.md 私下报告；账号、订单或包含隐私数据的问题请使用官网联系页面。
+
+  - type: dropdown
+    id: client
+    attributes:
+      label: 客户端
+      options:
+        - Windows Agent
+        - Mac Agent
+        - Android Tunnel Client
+    validations:
+      required: true
+
+  - type: input
+    id: client-version
+    attributes:
+      label: 客户端版本
+      placeholder: 例如 v0.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: system
+    attributes:
+      label: 操作系统与硬件架构
+      placeholder: 例如 Windows 11 24H2 x64 / macOS 15 arm64 / Android 14
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请简要说明遇到的问题及其影响。
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 启动客户端
+        2. ...
+        3. 出现问题
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 已脱敏的日志或截图
+      description: 请删除账号、令牌、设备标识、IP 地址和其他隐私信息；不需要时可以留空。
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我使用的是 README 中列出的当前测试版本。
+          required: true
+        - label: 我已经搜索过现有 Issue，没有发现相同问题。
+          required: true
+        - label: 这不是安全漏洞，也不包含账号、订单或隐私数据。
+          required: true
